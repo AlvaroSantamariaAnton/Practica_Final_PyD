@@ -48,6 +48,22 @@ python monitor_gui.py
 
 Esto abrirá una ventana de visualización **en tiempo real** con los mensajes del log del servidor y drones, imitando la consola original. Solo contiene un botón para **finalizar la visualización** y es útil cuando usas `gestor.py`.
 
+## 🖥️ Cómo usar el monitor gráfico
+
+1. Lanza el sistema desde `gestor.py` como normalmente:
+
+  ```bash
+  python gestor.py
+  ```
+
+2. En otra terminal, ejecuta el monitor gráfico para visualizar el sistema en tiempo real:
+
+  ```bash
+  python monitor_gui.py
+  ```
+
+Esto abrirá una ventana que muestra los mensajes del log del servidor y los drones, imitando la consola original. Es útil para supervisar el sistema mientras está en ejecución.
+
 ---
 
 ### Opción manual (por separado)
